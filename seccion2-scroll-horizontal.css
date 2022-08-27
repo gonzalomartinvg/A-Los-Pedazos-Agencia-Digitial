@@ -1,0 +1,98 @@
+.wrapper-1{ /*Esta es una GRID que posee la información del contenedor de tarjetas, no de las tarjetas ni de sus elementos.*/
+    height: 550px; /*Le damos un tamaño para que entre todo el contenido de dentro*/
+    display: grid; /*Le indicamos que es una Grid*/
+    grid-template-columns: repeat(6, 320px); /*Le decimos que son 9 elementos de 320px cada uno, si queremos agregar más tarjetas, debemos
+    aumentar la cantidad de elementos*/
+    overflow-x: auto; /*Le indicamos el scroll horizontal*/
+
+}
+
+.wrapper-2{ /*Esta es una GRID que posee la información del contenedor de tarjetas, no de las tarjetas ni de sus elementos.*/
+    height: 550px; /*Le damos un tamaño para que entre todo el contenido de dentro*/
+    display: grid; /*Le indicamos que es una Grid*/
+    grid-template-columns: repeat(4, 320px); /*Le decimos que son 9 elemenos de 320px cada uno, el tamaño es este ya que permite ver en pantalla de
+    ordenador 4 tarjetas y media de una que indica que se puede scrollear*/
+    overflow-x: auto; /*Le indicamos el scroll horizontal*/
+    
+}
+
+.wrapper-3{ /*Esta es una GRID que posee la información del contenedor de tarjetas, no de las tarjetas ni de sus elementos.*/
+    height: 550px; /*Le damos un tamaño para que entre todo el contenido de dentro*/
+    display: grid; /*Le indicamos que es una Grid*/
+    grid-template-columns: repeat(3, 320px); /*Le decimos que son 9 elemenos de 320px cada uno, el tamaño es este ya que permite ver en pantalla de
+    ordenador 4 tarjetas y media de una que indica que se puede scrollear*/
+    overflow-x: auto; /*Le indicamos el scroll horizontal*/
+    
+}
+
+.tarjetas { /*Esta es una SUB-GRID con la información de las tarjetas, no de sus elementos*/
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-color: #8d2525; /*Indicamos color del fondo*/
+    height: 450px; /*Indicamos el largo de la tarjeta. Si hay que agregar más info, podemos hacerla más larga desde acá*/
+    padding: 20px 20px 0px 20px; /*El padding es interno al elemento y extiende el background, queda lindo para hacer botones o tarjetas*/
+    margin: 20px; /*Es externo al elemento y separa del resto de las tarjetas*/
+    border-radius: 10px; /*Indicamos bordes redondeados de la tarjeta*/
+    display: grid; /*Indicamos que es una grid*/
+    grid-template-columns: 80px 80px 80px; /*Para que todo este alineado, generamos columnas que miden lo mismo que la imagen, así podremos agrupar
+    tanto la imagen como los otros elementos en el mismo espacio*/
+    grid-template-rows: 290px 30px 30px 40px 40px; /*Generamos filas*/
+    box-shadow: 3px 3px 12px black;
+}
+
+.tarjetas img {/*Estilos de la imagen con link*/
+    min-width: 110px;
+    width: 240px;
+    height: 270px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px black;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    justify-self: center;
+    
+}
+
+.tarjetas #nombre-proyecto{ /*Estilo del nombre del proyecto*/
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 130%;
+    font-weight: 700;
+    grid-column: 1 / 4; /*Le indicamos donde se ubica dentro de la SUB GRID "Tarjetas"*/
+    grid-row: 2 / 3;
+    justify-self: start;
+    align-self: center;
+}
+
+.tarjetas #tipo-de-proyecto{ /*Estilo del tipo de proyecto*/
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 100%;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background-color: #A72F2E;
+    justify-self: start;
+    align-self: center;
+}
+
+.tarjetas #mas-info { /*Estilo del link a más info*/
+    color: white;
+    font-family: 'Gotham Light', sans-serif;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    justify-self: end;
+    align-self: end;
+
+}
+
+.tarjetas #mas-info2 { /*Estilo del link a más info*/
+    color: white;
+    font-family: 'Gotham Light', sans-serif;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    justify-self: end;
+    align-self: end;
+
+}

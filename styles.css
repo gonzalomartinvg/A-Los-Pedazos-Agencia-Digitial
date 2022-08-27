@@ -1,0 +1,156 @@
+/* MENÚ */
+
+.container-menu .botonera{
+    font-family: 'Gotham', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/* ENCABEZADO */
+
+.container-nombre .nombre{
+    font-family: 'Gotham Black', sans-serif;
+    font-size: 520%;
+    color: white;
+}
+
+.container-nombre .agencia-digital{
+    font-family: 'Gotham', sans-serif;
+    font-size: 120%;
+    color: white;
+}
+
+.container-nombre .imagen-logo{
+    width: 70%;
+}
+
+/* MAIN: PROPUESTA */
+
+.container-propuesta p{
+    font-family: 'Gotham', sans-serif;
+    color: #585353;
+    font-size: 110%;
+    line-height: 30px;
+
+}
+
+.container-propuesta .texto-destacado{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 900;
+    color: #A72F2E;
+    font-size: 105%;
+    line-height: 30px;
+}
+
+/* MAIN: ILUSTRACIONES */
+
+.container-ilustraciones .container-tarjeta .ilustraciones{
+    width: 50%;
+    
+}
+
+.container-ilustraciones .container-tarjeta p{
+    font-family: 'Gotham', sans-serif;
+    color: #585353;
+    font-size: 100%;
+    line-height: 20px;
+    text-align: center;
+}
+
+.container-ilustraciones .texto-destacado-2{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 900;
+    color: #585353;
+    font-size: 100%;
+    line-height: 30px;
+}
+
+/*MAIN: Quiénes somos*/
+
+main .container-quienes-somos .boton-contacto p{
+    font-family: 'Gotham bold', sans-serif;
+    color: white;
+    font-size: 200%;
+}
+
+main .container-quienes-somos .boton-contacto a:link, a:visited {
+        margin: 5px; 
+        padding: 13px;
+        border-radius: 30px;
+        background-color: white;
+        color:#8d2525;
+        border: 1px solid white; 
+        text-decoration: none; 
+        font-family: 'Gotham bold', sans-serif; 
+        font-size: 20px;
+        box-shadow: 3px 3px 3px black;
+        text-align: center;
+    }
+    
+main .container-quienes-somos .boton-contacto a:hover, a:active {
+        background-color: #c9c8c9;
+    }
+
+
+main .container-quienes-somos .container-tarjeta-profile img{
+    width: 80%;
+
+}
+
+main .container-quienes-somos .container-tarjeta-profile p{
+    font-family: 'Gotham', sans-serif;
+    color: #585353;
+    font-size: 90%;
+    font-weight: 400;
+    text-align: center;
+}
+
+main .container-quienes-somos .container-tarjeta-profile .nombre-profile{
+    font-weight: 700;
+}
+
+
+/*MAIN: Sección Proyectos - Tarjetas con scroll horizontal*/
+
+.titulo-proyectos-integrales p{
+    width: fit-content; /*Con esto le indicamos que el background solo vaya hasta donde va el texto*/
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 130%;
+    font-weight: 600;
+    background-color: #8d2525;
+}
+
+.titulo-fotografia p {
+    width: fit-content; /*Con esto le indicamos que el background solo vaya hasta donde va el texto*/
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 130%;
+    font-weight: 600;
+    background-color: #8d2525;
+}
+
+.titulo-desarrollo p {
+    width: fit-content; /*Con esto le indicamos que el background solo vaya hasta donde va el texto*/
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 130%;
+    font-weight: 600;
+    background-color: #8d2525;
+}
+
+/*FOOTER*/
+
+footer .container-footer .informacion-copyright{
+    font-family: 'Gotham', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    color: white;
+}
+
+footer .container-footer .informacion-telefono{
+    font-family: 'Gotham', sans-serif;
+    font-size: 85%;
+    color: white;
+    text-decoration: none;
+}
