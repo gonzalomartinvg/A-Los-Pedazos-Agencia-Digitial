@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="seccion2-scroll-horizontal.css">
+    <link rel="stylesheet" href="responsive.css">
     <title>A Los Pedazos</title>
 </head>
 <body>
@@ -19,9 +20,26 @@
               <a class="botonera propuesta" href="#ancla-propuesta">Propuesta</a>
               <a class="botonera proyectos" href="#ancla-proyectos">Proyectos</a>
               <a class="botonera quienes-somos" href="#ancla-quienes-somos">Quiénes somos</a>
-              
+
+            <!-- Comienza Menú hamburguesa para móvil -->
+               
+               <div id="bars-menu" class="bars-menu">
+                 <span class="line1-bars-menu"></span>
+                 <span class="line2-bars-menu"></span>
+                 <span class="line3-bars-menu"></span>
+               </div>
+
+               <nav id="nav" class="main-nav">
+                <div class="nav-links">
+                  <a class="link-item" href="#ancla-propuesta">Propuesta</a>
+                  <a class="link-item" href="#ancla-proyectos">Proyectos</a>
+                  <a class="link-item" href="#ancla-quienes-somos">Quiénes somos</a>
+                </div>
+               </nav>
+
+            <!-- Finaliza Menú hamburguesa para móvil -->
+     
         </div>
-        
 
         <div class="container-nombre">
 
@@ -72,7 +90,7 @@
                 <img class="imagen-profile" src="images/profile-yago.png" alt="imagen de perfil de Yago">
                 <p class="nombre-profile">Soy Yago!</p>
                 <div class="linea-divisoria-profile"></div>
-                <p>Soy Periodista, Comunicador y Fotógrafo.</p>
+                <p>Periodista, Comunicador y Fotógrafo.</p>
             </div>
 
             <div class="boton-contacto">
@@ -84,7 +102,7 @@
                 <img class="imagen-profile" src="images/profile-gonza.png" alt="imagen de perfil de Gonza">
                 <p class="nombre-profile">Soy Gonza!</p>
                 <div class="linea-divisoria-profile"></div>
-                <p>Soy Lic. en Publicidad, Videomaker y Desarrollador Web.</p>
+                <p>Lic. en Publicidad, Videomaker y Desarrollador Web.</p>
             </div>
 
         </div>
@@ -218,5 +236,6 @@
 
     </footer>
     
+    <script src="script.js"></script>
 </body>
 </html>
