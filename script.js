@@ -7,7 +7,6 @@ var line1 = document.querySelector(".line1-bars-menu"); /*Indicamos que la varia
 var line2 = document.querySelector(".line2-bars-menu");
 var line3 = document.querySelector(".line3-bars-menu");
 
-
 function animateBars(){
     line1.classList.toggle("active-line1-bars-menu");
     line2.classList.toggle("active-line2-bars-menu");
@@ -24,7 +23,6 @@ const navWrapper = document.getElementById("nav");
   para que el menú se muestre.
 */
 toggleButton.addEventListener("click", () => {
-  toggleButton.classList.toggle("close");
   navWrapper.classList.toggle("show");
 });
 
@@ -37,6 +35,9 @@ document.querySelector("nav").addEventListener("click", animateBarsCLOSE)
 
 function animateBarsCLOSE(){
     navWrapper.classList.toggle("show");
+    line1.classList.toggle("active-line1-bars-menu");
+    line2.classList.toggle("active-line2-bars-menu");
+    line3.classList.toggle("active-line3-bars-menu");
      
 }
 
@@ -44,10 +45,6 @@ function animateBarsCLOSE(){
 navWrapper.addEventListener("click", e => {
   if (e.target.id === "nav") {
     navWrapper.classList.remove("show");
-    toggleButton.classList.remove("close");
-    line1.classList.toggle("active-line1-bars-menu");
-    line2.classList.toggle("active-line2-bars-menu");
-    line3.classList.toggle("active-line3-bars-menu");
   }
 });
 
