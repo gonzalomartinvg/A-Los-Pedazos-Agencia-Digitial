@@ -218,7 +218,7 @@ main .container-quienes-somos .gonza-profile{ /*Creamos una clase específica pa
 /*MAIN: Sección Proyectos - Tarjetas con scroll horizontal*/
 
 main .seccion-proyectos{
-    width: 100%;
+    width: 98%;
     margin: auto; 
     display: grid;
     padding-top: 10px;

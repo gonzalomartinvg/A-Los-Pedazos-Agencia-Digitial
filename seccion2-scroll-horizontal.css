@@ -27,7 +27,7 @@
 
 .tarjetas { /*Esta es una SUB-GRID con la información de las tarjetas, no de sus elementos*/
     background-color: #8d2525; /*Indicamos color del fondo*/
-    background-image: url(images/background.png);
+    background-image: url(/images/background-tarjetas.png);
     background-size: cover;
     height: 450px; /*Indicamos el largo de la tarjeta. Si hay que agregar más info, podemos hacerla más larga desde acá*/
     padding: 20px 20px 0px 20px; /*El padding es interno al elemento y extiende el background, queda lindo para hacer botones o tarjetas*/
@@ -44,7 +44,6 @@
     min-width: 110px;
     width: 240px;
     height: 270px;
-    background-color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 12px black;
     grid-column: 1 / 4;

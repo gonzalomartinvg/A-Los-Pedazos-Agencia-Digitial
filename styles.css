@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* MENÚ */
 
 .container-menu .botonera{
@@ -84,8 +90,6 @@ en el html. Por ejemplo, acá las llamé igual que las clases que le dimos en ht
     position: relative;
     font-family: 'Gotham', sans-serif;
   }
-
-
 
 /* ENCABEZADO */
 
