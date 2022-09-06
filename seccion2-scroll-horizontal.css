@@ -26,7 +26,7 @@
 }
 
 .tarjetas { /*Esta es una SUB-GRID con la información de las tarjetas, no de sus elementos*/
-    background-image: url(/images/background-72dpi.png);
+    background-image: url(background-72dpi.png);
     background-size: cover;
     background-color: #8d2525; /*Indicamos color del fondo*/
     height: 450px; /*Indicamos el largo de la tarjeta. Si hay que agregar más info, podemos hacerla más larga desde acá*/
