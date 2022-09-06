@@ -298,7 +298,6 @@ main .seccion-proyectos{
     min-width: 110px;
     width: 180px;
     height: 210px;
-    background-color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 12px black;
     grid-column: 1 / 4;
