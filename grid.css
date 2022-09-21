@@ -1,7 +1,7 @@
 /*HEADER: Background*/
 
 header{
-    background-image: url(images/background.png);
+    background-image: url(images/background-01.jpg);
     background-size: cover;
     background-color: #A72F2E;
 }
@@ -137,7 +137,7 @@ header{
 main .container-quienes-somos{
     width: 100%;
     margin: auto;
-    background-image: url(images/background-2.png);
+    background-image: url(images/background-2-01.jpg);
     background-size: cover;
     background-color: #A72F2E;
     display: grid;
