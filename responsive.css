@@ -276,7 +276,7 @@ main .seccion-proyectos{
 .wrapper-3{ /*Esta es una GRID que posee la información del contenedor de tarjetas, no de las tarjetas ni de sus elementos.*/
     height: 450px; /*Le damos un tamaño para que entre todo el contenido de dentro*/
     display: grid; /*Le indicamos que es una Grid*/
-    grid-template-columns: repeat(3, 260px); /*Le decimos que son 9 elemenos de 320px cada uno, el tamaño es este ya que permite ver en pantalla de
+    grid-template-columns: repeat(5, 260px); /*Le decimos que son 9 elemenos de 320px cada uno, el tamaño es este ya que permite ver en pantalla de
     ordenador 4 tarjetas y media de una que indica que se puede scrollear*/
     overflow-x: auto; /*Le indicamos el scroll horizontal*/
     
